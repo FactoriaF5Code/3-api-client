@@ -1,5 +1,5 @@
 document.getElementById("run").addEventListener("click", () => {
-    let url = document.getElementById("url").textContent;
+    let url = document.getElementById("url").value;
 
     fetch(url)        
         .then(response => response.json())
